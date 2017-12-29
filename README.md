@@ -1,4 +1,4 @@
-# This is a small admin panel for managing custom barcodes.
+# Small admin panel for managing custom barcodes.
 
 The barcodes are currently set up for EAN-13 however they can be changed. 
 Based on [Laravel](https://github.com/laravel/laravel) and [JsBarcode](https://github.com/lindell/JsBarcode/)
