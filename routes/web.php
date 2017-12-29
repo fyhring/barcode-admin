@@ -12,5 +12,12 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('/codes');
 });
+
+
+Auth::routes();
+
+Route::get('home', 'HomeController@index')->name('home');
+
+Route::resource('codes', 'BarcodeController');
